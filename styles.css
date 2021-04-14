@@ -1,0 +1,51 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+:root {
+     --color-1:#D7D9D7;
+     --color-2:#0B0D07;
+     --color-3:#736E65;
+     --color-4:#BF967E;
+     --color-5:#;
+    }
+    
+
+body {
+    background-color: var(--color-1);
+    color:var(--color-2);
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    margin:auto;
+    padding-top: 10vh;
+    height:90vh;
+    width: 50vw;
+    background-color: var(--color-4);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    border-radius: 10px;
+    border:none;
+    padding:10px;
+    margin:10px;
+}
+
+#result h2 {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border:2px solid #733729;
+    
+}
